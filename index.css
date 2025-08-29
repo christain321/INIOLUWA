@@ -142,11 +142,12 @@ form{
     color: #f3eaea;
     font-size: 25px;
     display: flex;
-     justify-content: center;
+justify-content: center;
      flex-wrap: wrap;
     align-items: center;
     box-shadow: 4px 9px 20px rgba(37, 147, 195, 0.6);
     padding-left: 8px;
+    width: 100%;
     height: 110px;
     padding-right: 10px;
     font-family: Arial, Helvetica, sans-serif;
@@ -158,7 +159,7 @@ form{
 a{
      color: #f3eaea; 
       text-decoration: none;
-      font-size: 20px;
+      font-size: 16px;
       padding-bottom: 20px;
       
 }
@@ -202,6 +203,7 @@ h1{
     font-size: 40px;
 }
 .pro{
+    width: 90%;
     padding-top: 600px;
     display: flex;
     justify-content: space-evenly;
@@ -213,19 +215,20 @@ h1{
 }  
 
 .content{
+    width: 90%;
     border: 1px solid #f3eaea;
     margin-top: 120px;
     border-radius: 50px;
     margin: auto;
     box-shadow: 4px 4px 5px rgba(77, 77, 77,0.4);
     align-content: center;
-    padding: 0px 20px;
+    padding: 0px 10px;
     
 }
 .proj{
     padding-right:20px ; 
-    width: 400px;
-    height: 300px;
+    width: 300px;
+    height: 250px;
     
 }
 .section{
@@ -244,8 +247,8 @@ h1{
 
 }
 .img{
-     height:500px;
-     width:400px;
+     height:450px;
+     width:95%;
 }
 .form{
     padding-top: 550px;
